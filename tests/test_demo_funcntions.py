@@ -4,7 +4,7 @@ from unittest import TestCase
 
 class TestDemoFunctions(TestCase):
     def test_calculate_statistics(self):
-        from demo_libry_lokesh.demo_functions import calculate_statistics
+        from src.demo_libry_lokesh.demo_functions import calculate_statistics
         import numpy as np
 
         data = [1, 2, 3, 4, 5]
