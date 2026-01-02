@@ -19,6 +19,8 @@ def calculate_statistics(data: list) -> dict:
         'std_dev': np.std(d)
     }
     
+    # change made by lokesh
+    
     return statistics
     
 
